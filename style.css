@@ -13,11 +13,11 @@ body {
 }
 
 .title {
-    background: darkcyan;
+    background: #294c71;
     font-size: 20px;
     color: white;
     width: 99%;
-    padding: 5px 0px 5px 5px;
+    padding: 5px 0 5px 5px;
     margin-bottom: 15px;
 }
 /* end of general styling */
@@ -32,19 +32,19 @@ header {
 }
 
 header img {
-    padding: 25px 0px;
+    padding: 25px 0;
 }
 
 #menu {
     width: 770px;
     background: darkred;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 #menu li {
     display: inline;
     background: url("imagens/divisor.png") no-repeat left;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 #menu a {
@@ -80,6 +80,7 @@ header img {
 /* start of secondary content styling  */
 
 .side-content {
+    background: #f3f3f3 url("imagens/fundo-caixa.png");
     float: left;
     width: 20%;
 }
@@ -99,14 +100,14 @@ header img {
 
 .side-content label {
     font-weight: bold;
-    margin: 10px 0px 2px 10px;
+    margin: 10px 0 2px 10px;
 }
 
 .side-content input {
     background: darkred;
     color: white;
     padding: 5px 10px;
-    margin: 0px 0px 2px 10px;
+    margin: 0 0 2px 10px;
 }
 
 .side-content input:nth-child(2){
@@ -121,6 +122,7 @@ header img {
 /* start styling the main content */
 
 .main-content {
+    background: #f3f3f3 url("imagens/fundo-caixa.png");
     float: left;
     width: 35%;
     margin-left: 30px;
@@ -177,7 +179,7 @@ header img {
 
 .news-list a:nth-child(2){
     display: inline;
-    color: lightblue;
+    color: #294c71;
     margin-left: 10px;
     font-size: 14px;
 }
@@ -197,9 +199,9 @@ header img {
 
 footer {
     clear: both;
-    background: darkcyan;
+    background: #294c71;
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 0;
     margin-top: 50px;
 }
 
