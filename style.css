@@ -1,0 +1,212 @@
+/* atart of general styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url("imagens/fundo.png") repeat-x;
+}
+
+.title {
+    background: darkcyan;
+    font-size: 20px;
+    color: white;
+    width: 99%;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 15px;
+}
+/* end of general styling */
+
+/* header styling start */
+
+header {
+    background: url("imagens/detalhe-topo.png") no-repeat right top;
+    height: 180px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+header img {
+    padding: 25px 0px;
+}
+
+#menu {
+    width: 770px;
+    background: darkred;
+    padding: 10px 0px;
+}
+
+#menu li {
+    display: inline;
+    background: url("imagens/divisor.png") no-repeat left;
+    padding: 10px 0px;
+}
+
+#menu a {
+    padding: 10px 25.7px;
+    color: white;
+}
+
+#menu .home {
+    background: none;
+}
+
+/* end of header styling */
+
+/* start of menu and cursor styling */
+
+#menu a:hover {
+    color: black;
+}
+
+#menu a:visited {
+    background: red;
+}
+
+/* end of menu and cursor styling */ 
+
+/*start of the general stylization of the contents*/
+#page {
+    width: 900px;
+    margin: auto;
+}
+/*end of the general stylization of the contents*/
+
+/* start of secondary content styling  */
+
+.side-content {
+    float: left;
+    width: 20%;
+}
+
+.side-content a {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.space {
+    margin-top: 38px;
+}
+
+.side-content label {
+    font-weight: bold;
+    margin: 10px 0px 2px 10px;
+}
+
+.side-content input {
+    background: darkred;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px 0px 2px 10px;
+}
+
+.side-content input:nth-child(2){
+    background: white;
+    width: 70%;
+    color: black;
+    padding: 7px;
+}
+
+/* end of secondary content styling */
+
+/* start styling the main content */
+
+.main-content {
+    float: left;
+    width: 35%;
+    margin-left: 30px;
+}
+
+.main-content h4 {
+    display: inline;
+    background-color: red;
+    margin-left: 7px;
+}
+
+#white {
+    color: white;
+}
+
+.main-content img{
+    display: block;
+    width: 95%;
+    margin: 5px auto;
+}
+
+.legend {
+    display: block;
+    width: 90%;
+    margin-left: 7px;
+    color: black;
+    font-weight: bold;
+}
+
+.link {
+    display: block;
+    width: 90%;
+    text-decoration: underline;
+    margin-left: 7px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.news-grid{
+    display: inline-block;
+}
+
+
+.news-list{
+    display: inline-block;
+    width: 95%;
+}
+
+.news-list img {
+    float: left;
+    clear: both;
+    width: 30%;
+}
+
+.news-list a:nth-child(2){
+    display: inline;
+    color: lightblue;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.news-list a {
+    display: inline-block;
+    width: 60%;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+/* end of main content styling */
+
+/* start of footer styling */
+
+footer {
+    clear: both;
+    background: darkcyan;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+footer p {
+    width: 900px;
+    color: white;
+    margin: auto;
+}
+
+/* end of footer styling */
